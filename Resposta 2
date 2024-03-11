@@ -1,0 +1,12 @@
+def fibonacci(n):
+    if n <= 0:
+        return [0]
+    sequence = [0, 1]
+    while sequence[-1] < n:
+        sequence.append(sequence[-1] + sequence[-2])
+    return sequence, n in sequence
+
+n = 34  # número a ser verificado
+sequence, is_in_sequence = fibonacci(n)
+print(f"A sequência até {n} é: {sequence}")
+print(f"O número {n} {'está' if is_in_sequence else 'não está'} na sequência.")
