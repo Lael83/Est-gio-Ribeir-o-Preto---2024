@@ -1,1 +1,2 @@
-# sequ-ncia-de-fibonnacci
+# sequência-de-fibonnacci
+# função reverse
