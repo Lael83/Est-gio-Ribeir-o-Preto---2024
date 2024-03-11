@@ -1,0 +1,5 @@
+def inverter_string(s):
+    return s[::-1]
+
+s = "Olá, mundo!"
+print(inverter_string(s))
